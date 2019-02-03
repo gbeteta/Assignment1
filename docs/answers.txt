@@ -1,0 +1,41 @@
+a)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+b)
+5
+$ git rev-list --all --count
+
+c) 
+Thu Jan 10 16:45:38 2019
+$ git log -p .gitignore
+
+d) 
+- One can work on features independently so they never affect anyone else's work until it comes time to merge.
+- One can do code reviews and targeted testing on the feature branch without holding anyone else up if there's a problem.
+e)
+git log shows the commit logs
+git status shows the working tree status
+
+f) 
+git log Weapon.h
+
+g)
+git log --grep="file"
+
+h)
+I. The mechanism by which an object acquires the some/all properties of another object.
+II. One method with multiple implementation for a certain class of action which implementation to be used is decided at runtime depending upon the situation
+III. Binding the data with the code that manipulates it. It keeps the data and the code safe from external interference.
+
+i) 
+The "Dictator and Lieutenants" workflow is where there is only one central/blessed repository where every one makes pull from and only one person/dictator can push to it.
+The  "Integration Manager" workflow each developer makes push to his/her own public repository, and pull from the blessed/central repository.Two repositories per developer pull and push to his/her own public repository.
+
+j)
+In a centralized workflow, if all the developers where to commit changes on the same files, a huge amount of work be required to handle the task.
+The dictator workflow can handle this more elegantly by dividing and conquering.
+
