@@ -39,3 +39,15 @@ j)
 In a centralized workflow, if all the developers where to commit changes on the same files, a huge amount of work be required to handle the task.
 The dictator workflow can handle this more elegantly by dividing and conquering.
 
+
+RoleGame OOP principles
+
+The Rolegame prototype is a case of both polymorphism and encapsulation.
+
+Polymorphism is used in the children classes of the Weapon class to modify their hit method.
+An important keyword is the word virtual, used for each child of Weapon.
+
+Encapsulation is exemplified in the prototype in the form of the weapon classes being
+encapsulated by the class WeaponFactory, which returns every value from those classes to main.
+
+
